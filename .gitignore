@@ -1,0 +1,15 @@
+# Object files
+*.o
+
+# Compiled binary
+shell
+
+# Log files
+*.log
+log.txt
+
+# Editor backups
+*~
+
+# VS Code settings (optional)
+.vscode/
