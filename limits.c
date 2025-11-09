@@ -4,8 +4,9 @@
 #include <stdlib.h>
 
 void apply_limits(void) {
+    // Defining a struct rlimit r1
     struct rlimit rl;
-
+    
     // CPU time: 2 seconds
     rl.rlim_cur = rl.rlim_max = 2;
     if (setrlimit(RLIMIT_CPU, &rl) != 0) {
